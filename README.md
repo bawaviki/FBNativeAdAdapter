@@ -1,6 +1,6 @@
 # FBNativeAdAdapter
 
- [ ![Download](https://api.bintray.com/packages/thuanle/maven/FBNativeAdAdapter/images/download.svg) ](https://bintray.com/thuanle/maven/FBNativeAdAdapter/_latestVersion)
+[![](https://jitpack.io/v/bawaviki/FBNativeAdAdapter.svg)](https://jitpack.io/#bawaviki/FBNativeAdAdapter)
 
 `FBNativeAdAdapter` helps you easily add  [Facebook Audience Network Native Ad](https://developers.facebook.com/docs/audience-network/native-ads) among your data in `RecyclerView.Adapter`.
 
@@ -10,10 +10,13 @@
 
 # Installation
 
-You can get `FBNativeAdAdapter` via `jCenter` repository
+You can get `FBNativeAdAdapter` via `jitpack` repository
 
 ```groovy
-compile 'me.timos.thuanle:fb-native-ad-adapter:latest.version'
+dependencies {
+	        implementation 'com.github.bawaviki:FBNativeAdAdapter:Tag'
+	}
+
 ```
 
 # Usage
